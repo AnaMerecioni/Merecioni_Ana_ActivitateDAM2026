@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Lab2</string>
+    <string name="app_name">Seminar2</string>
+    <string name="intoarce">Inapoi</string>
     <string name="button">Button</string>
 </resources>
