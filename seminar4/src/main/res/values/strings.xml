@@ -1,12 +1,5 @@
 <resources>
     <string name="app_name">Seminar4</string>
     <string name="apasa">Apasa</string>
-    <string name=
-        />/lista statica
-        <Spinner
-    android:layout_width="match_parent"
-            android:layout_width="match_parent"
-            android:layout_height="wrapper_"
-            android:text="@string/esti"
-
+    <string name="esti">Esti student</string>
 </resources>
