@@ -2,4 +2,26 @@
     <string name="app_name">Seminar4</string>
     <string name="apasa">Apasa</string>
     <string name="esti">Esti student</string>
+
+    <string name="adauga_masina">Adauga masina</string>
+    <string name="adauga_masina_ai">Adauga masina (design AI)</string>
+    <string name="titlu_adaugare">Introduceti datele masinii</string>
+    <string name="model">Model</string>
+    <string name="marca">Marca</string>
+    <string name="este_noua">Este noua</string>
+    <string name="combustibil">Tip combustibil</string>
+    <string name="nota">Nota de la utilizator</string>
+    <string name="aer_conditionat">Are aer conditionat</string>
+    <string name="salveaza">Salveaza</string>
+    <string name="nicio_masina">Nu a fost adaugata nicio masina</string>
+    <string name="eroare_model">Introduceti modelul masinii</string>
+
+    <!-- lista statica pentru Spinner -->
+    <string-array name="tipuri_combustibil">
+        <item>Benzina</item>
+        <item>Motorina</item>
+        <item>Hibrid</item>
+        <item>Electric</item>
+        <item>GPL</item>
+    </string-array>
 </resources>

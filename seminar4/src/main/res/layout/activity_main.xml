@@ -30,4 +30,23 @@
         android:layout_height="wrap_content"
         android:text="Hello world" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deschideAdaugare"
+        android:text="@string/adauga_masina" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deschideAdaugareAI"
+        android:text="@string/adauga_masina_ai" />
+
+    <TextView
+        android:id="@+id/masina_TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/nicio_masina" />
+
 </LinearLayout>

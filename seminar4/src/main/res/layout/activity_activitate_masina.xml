@@ -1,10 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ActivitateMasina">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titlu_adaugare"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/model_ET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/model"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marca" />
+
+        <RadioGroup
+            android:id="@+id/marca_RG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/dacia_RB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Dacia" />
+
+            <RadioButton
+                android:id="@+id/bmw_RB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMW" />
+
+            <RadioButton
+                android:id="@+id/toyota_RB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Toyota" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/esteNoua_CB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/este_noua" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/combustibil" />
+
+        <!--lista statica-->
+        <Spinner
+            android:id="@+id/combustibil_SP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/tipuri_combustibil" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nota" />
+
+        <RatingBar
+            android:id="@+id/nota_RB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5" />
+
+        <Switch
+            android:id="@+id/aer_SW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aer_conditionat" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="salveazaMasina"
+            android:text="@string/salveaza" />
+    </LinearLayout>
+</ScrollView>

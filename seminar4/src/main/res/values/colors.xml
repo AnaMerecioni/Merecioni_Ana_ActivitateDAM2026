@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- culori pentru activitatea de adaugare realizata cu AI -->
+    <color name="ai_fundal">#FFF3F5FA</color>
+    <color name="ai_antet">#FF1E3A8A</color>
+    <color name="ai_accent">#FF2563EB</color>
+    <color name="ai_text_secundar">#FF5B6475</color>
 </resources>

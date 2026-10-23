@@ -1,3 +1,5 @@
+package com.example.seminar4;
+
 import java.io.Serializable;
 public class Masina implements Serializable {
     private String numeModel;
